@@ -1,0 +1,15 @@
+{
+  "name": "allinone",
+  "version": "1.0.0",
+  "description": "An app for showing latest updates of the user from social sites in one glance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "social",
+    "app"
+  ],
+  "author": "cijo k.b",
+  "license": "ISC"
+}
