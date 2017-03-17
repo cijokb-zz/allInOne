@@ -6,14 +6,23 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+import DashBoard from "./components/DashBoard";
 
-
-class Welcome extends React.Component{
+class Main extends React.Component{
+    constructor(props) {
+        super(props);
+    }
     render(){
-        return (<div> Welcome</div>);
+        return (
+            <div>
+                <DashBoard/>
+            </div>
+        );
     }
 }
 
+injectTapEventPlugin();
 document.addEventListener('DOMContentLoaded', function() {
-    ReactDOM.render(<Welcome/>, document.getElementById('app'));
+    ReactDOM.render(<Main/>, document.getElementById('app'));
 });

@@ -1,7 +1,7 @@
 {
   "name": "allinone",
   "version": "1.0.0",
-  "description": "An app for showing latest updates of the user from social sites in one glance.",
+  "description": "An app for showing latest updates of the user from social media sites in one glance.",
   "main": "index.js",
   "scripts": {
     "compile": "webpack",
@@ -10,7 +10,12 @@
   },
   "keywords": [
     "social",
-    "app"
+    "app",
+    "all in one",
+    "allInOne",
+    "google",
+    "twitter",
+    "facebook"
   ],
   "author": "cijo k.b",
   "license": "ISC",
@@ -20,9 +25,15 @@
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.23.0",
     "express": "^4.15.2",
+    "material-ui": "^0.17.1",
     "react": "^15.4.2",
+    "react-bootstrap": "^0.30.8",
     "react-dom": "^15.4.2",
+    "react-tap-event-plugin": "^2.0.1",
     "webpack": "^2.2.1",
     "webpack-dev-middleware": "^1.10.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.23.0"
   }
 }
